@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutripatitas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/projeto1.css" />
+    <link rel="stylesheet" href="/css/projeto3.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navegacao">
+        <ul class="menu">
+          <li>
+            <a href="/html/index.html">
+              <img class="bt-voltar" src="/img/voltar.png" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <div class="engajar">
+              <a href="http://">
+                <img class="link-git" src="/img/git-icon.png" alt="" />Ver no
+                GitHub
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="container-botao">
+              <a href="#">
+                <img src="/img/like.png" id="like" alt="Like" />
+              </a>
+
+              <span class="divisor-vertical"></span>
+
+              <a href="#">
+                <img src="/img/dislike.png" id="dislike" alt="Dislike" />
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <input type="checkbox" id="ativo" />
+            <label for="ativo" class="switch">
+              <span class="slider-img"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="projeto">
+      <div class="card-carrossel">
+        <h1 class="titulo">Nutripatitas - Alimentador automático para pets</h1>
+
+        <p class="paragrafo-projeto">
+          O <strong>Nutripatitas</strong> é um alimentador automático para cães
+          e gatos com conectividade Wi-Fi, que permite aos usuários controlarem
+          as porções e os intervalos das refeições dos seus pets via aplicativo.
+          O projeto foi apresentado na Mostra Científica e Tecnológica durante o
+          evento Mundo SENAI, onde conquistamos o 3º lugar. A proposta foi
+          desenvolver um protótipo funcional e sustentável, utilizando filamento
+          PETG e componentes eletrônicos de baixo custo, com o objetivo de
+          auxiliar os tutores no controle da alimentação saudável de seus pets —
+          mesmo quando estão fora de casa — permitindo seguir dietas específicas
+          conforme o porte e a idade do animal.
+        </p>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="/img/alimentador.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="/img/3d_alimentador.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/app_nutripatitas.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <p class="paragrafo-projeto">
+          Para o hardware do projeto, utilizamos componentes eletrônicos como o
+          microcontrolador ESP32, que possui Wi-Fi integrado, dois sensores de
+          peso (células de carga), cada um com um conversor HX711 para a
+          calibração do peso da ração no reservatório e no prato do alimentador,
+          um servo motor SG90 para o controle da saída da ração, além de
+          resistores, fios e LEDs para fornecer feedback visual no case do
+          dispositivo. No software, o código do ESP32 foi desenvolvido em C++ na
+          plataforma Arduino IDE, enquanto o aplicativo Nutripatitas foi criado
+          com XML e Java no Android Studio.
+        </p>
+        <p class="paragrafo-projeto">
+          Neste projeto, não atuei tanto no desenvolvimento do código, pois
+          fiquei responsável pela modelagem e montagem do protótipo. Foi um
+          desafio para mim aprender a trabalhar com o Tinkercad, mas foi
+          gratificante ver as peças impressas em mãos, identificar erros e
+          pensar em melhorias e adaptações para que o protótipo ficasse
+          funcional para a apresentação.
+        </p>
+      </div>
+      <h2 class="subtitulo-projeto">Tecnologias utilizadas</h2>
+
+      <ul class="lista-tec">
+        <li><img src="/img/Xml.png" alt="" />XML</li>
+        <li><img src="/img/java.png" alt="" />JAVA</li>
+        <li><img src="/img/Androidstudio.png" alt="" />ANDROID STUDIO</li>
+        <li><img src="/img/tinkercad.webp" alt="" />TINKERCAD</li>
+        <li><img src="/img/Arduino.png" alt="" />ARDUINO IDE</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Funcionalidades do projeto</h2>
+
+      <ul class="lista">
+        <label>Aplicativo</label>
+        <li>Definir a quantidade de ração;</li>
+        <li>Definir intervalo das refeições ;</li>
+        <li>Visualizar a rede conectada;</li>
+        <li>Monitorar a quantidade de ração no reservatório;</li>
+        <li>Monitorar a porção do prato;</li>
+        <li>Monitorar o intervalo entre as refeições;</li>
+
+        <label>Alimentador</label>
+        <li>Dispensar a ração;</li>
+        <li>Mostrar o nível do reservatório através dos leds;</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Dificuldades enfrentadas</h2>
+
+      <ul class="lista">
+        <li>Desenvolver o código para conectividade Wi-Fi;</li>
+        <li>Fazer o aplicativo trocar informações com o alimentador</li>
+        <li>Modelar o case do alimentador;</li>
+        <li>Realizar adaptações no case do alimentador</li>
+        <li>Montar o circuito eletrônico;</li>
+        <li>Realizar a calibragem dos sensores célula carga;</li>
+        <li>Produzir um artigo científico sobre o projeto;</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Aprendizados</h2>
+
+      <ul class="lista">
+        <li>Trabalho em equipe;</li>
+        <li>Programação aplicada em microcontroladores;</li>
+        <li>Modelagem 3D;</li>
+        <li>Eletrônica;</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Melhorias futuras</h2>
+
+      <ul class="lista">
+        <li>Substituir os sensores de peso;</li>
+        <li>Melhorar a estética do produto;</li>
+        <li>Melhorias no dispenser para aumentar o fluxo da ração;</li>
+      </ul>
+
+      <div class="area-video">
+        <div class="card-video">
+          <h2 class="subtitulo-projeto">PROTÓTIPO DO ALIMENTADOR</h2>
+          <video src="/videos/" controls></video>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p class="paragrafo-copyright">
+        &copy; 2025 Gabriel Evangeli☻. Todos os direitos reservados.
+      </p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

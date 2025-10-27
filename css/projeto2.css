@@ -1,0 +1,47 @@
+:root {
+  --primaria: #4f46e5;
+  --secundaria: #7c3aed;
+  --escuro: #0a0f1c;
+  --claro: #e2e8f0;
+  --laranja: #ff9f18;
+  --vidro: rgba(255, 255, 255, 0.1);
+}
+
+.d-block{
+   padding: 5px 5px 5px 5px;
+   border: 4px solid #c1bdbd;
+   background-color: var(--escuro);
+   max-width: 300px;
+}
+
+body.modo-noturno .d-block {
+  background-color: var(--escuro);
+  backdrop-filter: blur(5px);
+  border: 2px solid var(--vidro);
+     
+}
+
+
+
+.carousel-caption {
+  background: none;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 1rem;
+  color: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  width: 100%;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.card-video{
+  max-width: 300px;
+
+}
+

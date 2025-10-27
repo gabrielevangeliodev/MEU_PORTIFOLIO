@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Communicare</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/projeto1.css" />
+    <link rel="stylesheet" href="/css/projeto2.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navegacao">
+        <ul class="menu">
+          <li>
+            <a href="/html/index.html">
+              <img class="bt-voltar" src="/img/voltar.png" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <div class="engajar">
+              <a href="http://">
+                <img class="link-git" src="/img/git-icon.png" alt="" />Ver no
+                GitHub
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="container-botao">
+              <a href="#">
+                <img src="/img/like.png" id="like" alt="Like" />
+              </a>
+
+              <span class="divisor-vertical"></span>
+
+              <a href="#">
+                <img src="/img/dislike.png" id="dislike" alt="Dislike" />
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <input type="checkbox" id="ativo" />
+            <label for="ativo" class="switch">
+              <span class="slider-img"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="projeto">
+      <div class="card-carrossel">
+        
+       <h1 class="titulo">Communicare</h1>
+
+        <p class="paragrafo-projeto">
+          Este é o <strong>Communicare</strong>, um aplicativo mobile
+          desenvolvido para ajudar pessoas que não sabem a Língua Brasileira de
+          Sinais (LIBRAS) a se comunicarem com pessoas surdas com mais
+          facilidade. O projeto foi desenvolvido por mim e minha equipe, e
+          apresentado como Trabalho de Conclusão de Curso no SENAI, em Feira de
+          Santana, BA.
+        </p>
+
+        <p class="paragrafo-projeto">
+          Sua proposta surgiu a partir de uma situação real vivenciada por
+          colegas no passado, que, por não terem acesso ao ensino de LIBRAS na
+          escola onde estudavam, enfrentavam dificuldades para interagir com uma
+          colega surda.
+        </p>
+
+        <p class="paragrafo-projeto">
+          Ao explorarmos mais sobre tecnologias assistivas, percebemos que havia
+          poucas soluções voltadas para esse público. Então, desenvolvemos um
+          aplicativo que permite a comunicação por meio de teclados adaptados,
+          com layouts em LIBRAS e saída em áudio, além de uma aba de
+          aprendizagem com atividades e minigames para aprender LIBRAS, e uma
+          aba de emergência que permite as pessoas surdas realizarem chamadas com
+          transmissão por voz em casos urgentes.
+        </p>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="/img/login-app.jpeg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="/img/login-app.jpeg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/img/login-app.jpeg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <p class="paragrafo-projeto">
+          Alguns podem achar que a comunicação por teclados não seria tão
+          prática, ou até assumir que toda pessoa surda sabe a língua
+          portuguesa. Mas, e se ela não souber? Como vai associar cada sinal a
+          uma letra? 🤔
+        </p>
+
+        <p class="paragrafo-projeto">
+          Sim, por melhor que seja a causa, o projeto precisa ser funcional e
+          realmente atender às necessidades dos usuários. Por isso, ao escolher
+          a digitação como base para a comunicação no aplicativo, utilizamos
+          recursos acessíveis para tornar o diálogo mais intuitivo e dinâmico. O
+          aplicativo foi desenvolvido para celulares Android usando Java no
+          Android Studio, e conta com teclados adaptados com ícones visuais
+          representando sinais de LIBRAS. Isso permite que o usuário se
+          comunique mesmo sem dominar completamente a língua portuguesa, apenas
+          selecionando símbolos visuais associados aos sinais.
+        </p>
+
+        <p class="paragrafo-projeto">
+          Durante o desenvolvimento, diversos desafios surgiram para garantir
+          que o aplicativo fosse, de fato, funcional e acessível como planejado.
+          Entre eles, destacam-se a criação das funções do teclado, a associação
+          precisa entre sinais e letras, a adaptação para diferentes tamanhos de
+          tela, a implementação da API de ligação na aba de emergência e o
+          salvamento do progresso nos minigames.
+        </p>
+
+        <p class="paragrafo-projeto">
+          A partir dos testes realizados e dos feedbacks recebidos, já pensamos
+          em futuras melhorias — como a inclusão de um modelo 3D para realizar
+          os sinais — com o objetivo de tornar a experiência ainda mais
+          intuitiva para pessoas surdas. Acreditamos que, ao continuar ouvindo
+          as necessidades reais dos usuários, poderemos transformar o
+          <strong>Communicare</strong> em uma ferramenta cada vez mais completa,
+          humana e transformadora.
+        </p>
+      </div>
+      <h2 class="subtitulo-projeto">Tecnologias utilizadas</h2>
+
+      <ul class="lista-tec">
+        <li><img src="/img/Xml.png" alt="" />XML</li>
+        <li><img src="/img/java.png" alt="" />JAVA</li>
+        <li><img src="/img/Androidstudio.png" alt="" />ANDROID STUDIO</li>
+        <li><img src="/img/Firebase.png" alt="" />FIREBASE</li>
+        <li><img src="/img/Sqlite.png" alt="" />MYSQLite</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Funcionalidades do projeto</h2>
+
+      <ul class="lista">
+        <li>Cadastro;</li>
+        <li>Login e Logout;</li>
+        <li>Teclado 1 - Layout em Libras saída em português ;</li>
+        <li>Teclado 2 - Layout em Português saída em LIBRAS;</li>
+        <li>Converter texto para áudio;</li>
+        <li>Adicionar mensagens pré-definidas;</li>
+        <li>Atividades;</li>
+        <li>Minegames;</li>
+        <li>Conteúdo em vídeo;</li>
+        <li>Aba de emergencia;</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Dificuldades enfrentadas</h2>
+
+      <ul class="lista">
+        <li>
+          Desenvolver atividades e minegames eficientes respeitando a Linguagem
+          Brasileira de Sinais;
+        </li>
+        <li>Integrar uma API de conversão de texto no teclado;</li>
+        <li>Criação de layout responsivo;</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Aprendizados</h2>
+
+      <ul class="lista">
+        <li>Integração do Front-End com Back-End;</li>
+        <li>Autenticação via Firebase;</li>
+        <li>Implementação de conversão de texto em fala;</li>
+        <li>Colaborar com a equipe no vercionamento do aplicativo;</li>
+        <li>Gestão de tarefas;</li>
+      </ul>
+
+      <h2 class="subtitulo-projeto">Melhorias futuras</h2>
+
+      <ul class="lista">
+        <li>Desenvolver um modelo 3D;</li>
+        <li>Criar novos mine games;</li>
+        <li>Criação de testes automatizados para correção de bugs e falhas;</li>
+      </ul>
+
+       <div class="area-video">
+        <div class="card-video">
+          <h2 class="subtitulo-projeto">TELA DO APLICATIVO </h2>
+          <video src="/videos/communicare.mp4" controls></video>
+        </div>
+
+      
+      </div>
+
+
+    </section>
+
+    <div class="copyright">
+      <p class="paragrafo-copyright">
+        &copy; 2025 Gabriel Evangeli☻. Todos os direitos reservados.
+      </p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

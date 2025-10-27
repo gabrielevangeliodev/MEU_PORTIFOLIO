@@ -1,0 +1,9 @@
+.lista label{
+    color: var(--laranja);
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+  background: none;
+
+}
