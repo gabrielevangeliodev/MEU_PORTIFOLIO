@@ -46,9 +46,9 @@ const insta = document.getElementById("instagram");
 const git = document.getElementById("gitHub");
 const linked = document.getElementById("linkedin");
 
-insta.src = "../img/instagram-light.png";
-git.src = "../img/github-light.png";
-linked.src = "../img/linkedin-light.png";
+insta.src = "img/instagram-light.png";
+git.src = "img/github-light.png";
+linked.src = "img/linkedin-light.png";
 
 modoNoturno.addEventListener("change", () => {
   if (modoNoturno.checked) {
@@ -59,14 +59,14 @@ modoNoturno.addEventListener("change", () => {
   }
 
   if (document.body.classList.contains("modo-noturno")) {
-    insta.src = "../img/instagram.png";
-    git.src = "../img/github.png";
-    linked.src = "../img/linkedin.png";
+    insta.src = "img/instagram.png";
+    git.src = "img/github.png";
+    linked.src = "img/linkedin.png";
 
   } else {
-    insta.src = "../img/instagram-light.png";
-    git.src = "../img/github-light.png";
-    linked.src = "../img/linkedin-light.png";
+    insta.src = "img/instagram-light.png";
+    git.src = "img/github-light.png";
+    linked.src = "img/linkedin-light.png";
   }
 });
 
