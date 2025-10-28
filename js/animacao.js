@@ -64,8 +64,8 @@ modoNoturno.addEventListener("change", () => {
     linked.src = "../img/linkedin.png";
 
   } else {
-    insta.src = "img/instagram-light.png";
-    git.src = "img/github-light.png";
+    insta.src = "../img/instagram-light.png";
+    git.src = "../img/github-light.png";
     linked.src = "../img/linkedin-light.png";
   }
 });
