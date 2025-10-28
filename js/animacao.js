@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   cursor.classList.add("cursor"); //Adiciona a classe CSS ao cursor. Essa classe define a aparência (a cor, o formato e a animação de piscar) do cursor.
 
-  document.querySelector("h2").appendChild(cursor); //Seleciona o primeiro h1 e adiciona o span do cursor como ultimo filho dele.
+  document.querySelector("h2").appendChild(cursor); //Seleciona o primeiro h2 e adiciona o span do cursor como ultimo filho dele.
 
   let delay = 100; //Atraso em milissegundos entre a aparição de cada letra
 

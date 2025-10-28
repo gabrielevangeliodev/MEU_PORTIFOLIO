@@ -986,20 +986,16 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .hero {
-      padding: 0 1.5rem;
+      padding: 0 1rem;
   
   }
 
   .hero h2 {
-    display: block;
-    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 5vw, 1.3rem);
     text-align: left;
-    line-height: 1.5;
- 
   }
 
  
-
   h1 {
     font-size: 1.5rem;
      text-align: center;
@@ -1015,8 +1011,8 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .botoes {
+    display: flex;
     flex-direction: column;
-    
     gap: 10px;
   }
 
