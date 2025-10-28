@@ -203,14 +203,12 @@ body.modo-noturno .section-main {
 
 .hero {
   max-width: 800px;
-  border: 2px solid rebeccapurple;
   padding: 20px;
 }
 
 .hero h2 {
-  border: 2px solid red;
   font-size: 1.6em;
-  display: inline;
+  display: flex;
   max-width: 700px;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -230,8 +228,8 @@ body.modo-noturno h1 {
 }
 
 span {
-  white-space: nowrap;
-  white-space: pre;
+  white-space: wrap;
+
 }
 .cor1 {
   color: #bd93f9;
@@ -1093,32 +1091,43 @@ body.modo-noturno .paragrafo-footer {
     padding: 6rem 1rem;
   }
 
+
   .hero{
-    max-width: 400px;
+    max-width: 100%;
     margin: 0 auto;
-    border: 2px solid rebeccapurple;
     padding: 1rem;
   }
 
   .hero h2{
-    max-width: 300px;
-   
-    border: 2px solid red;
-    display: inline;
+    width: 100%;
+    display: flex;
     word-break: normal;
     flex-wrap: wrap;
     text-overflow: hidden;
-    font-size: clamp(0.9rem, 5vw, 1.3rem);
+    font-size: 1rem;
     text-align: start;
    
   }
 
+  .container-imagem{
+    justify-content: center;
+  }
 
+  .container-imagem img{
+    width: 70%;
+    height: auto;
+     max-width: 300px;
+ 
+
+  }
 
 
 
   .card-imagem {
-    width: 100%;
+    width: 70%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   /*Sobre mim*/
