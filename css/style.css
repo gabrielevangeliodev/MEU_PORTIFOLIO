@@ -121,7 +121,7 @@ body.modo-noturno .navegacao {
 
 .slider-img {
   position: absolute;
-  background-image: url("/img/sol.png");
+  background-image: url("img/sol.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -143,7 +143,7 @@ body.modo-noturno .navegacao {
 
 #ativo:checked ~ .switch .slider-img {
   transform: translateX(30px);
-  background-image: url("/img/lua.png");
+  background-image: url("img/lua.png");
 }
 
 .menu {
@@ -314,7 +314,7 @@ a {
   max-width: 100%;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-image: url("/img/fundo1.png");
+  background-image: url("img/fundo1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -324,7 +324,7 @@ a {
 }
 
 body.modo-noturno .container-imagem img {
-  background-image: url("/img/fundo2.png");
+  background-image: url("img/fundo2.png");
   box-shadow: 0px 0px 50px rgb(79, 70, 229, 0.3);
   border: none;
 }
@@ -737,7 +737,7 @@ body.modo-noturno .paragrafo-projetos {
 }
 
 .ver-projeto {
-  background-image: url("/img/maximizar.png");
+  background-image: url("img/maximizar.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
