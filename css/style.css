@@ -986,7 +986,8 @@ body.modo-noturno .paragrafo-footer {
 
   .hero {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
+    padding: 1rem;
     margin: 0 auto;
   }
 
