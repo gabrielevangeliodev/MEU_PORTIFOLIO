@@ -452,7 +452,7 @@ body.modo-noturno .card-video video {
   .lista-tec {
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
   }
 
   .area-video {

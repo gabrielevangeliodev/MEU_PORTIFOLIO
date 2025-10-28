@@ -186,7 +186,7 @@ body.modo-noturno .links {
 .section-main {
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--claro);
+  background-color: #e2e6f5;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -251,15 +251,24 @@ span {
 .cursor {
   border-right: 2px solid var(--claro);
   animation: piscar 0.8s steps(2) infinite;
-  margin-left: 2px;
+  margin: 5px;
+  
+
+
 }
+
+
+body.modo-noturno .cursor {
+  background-color: var(--claro);
+}
+
 
 @keyframes piscar {
   0% {
     border-color: transparent;
   }
   50% {
-    border-color: var(--claro);
+    border-color: var(--escuro);
   }
   100% {
     border-color: transparent;
