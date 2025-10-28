@@ -993,7 +993,8 @@ body.modo-noturno .paragrafo-footer {
 
   .hero h2 {
     font-size: 1rem;
-    padding: 5rem;
+    padding: 5rem 1rem;
+    word-break: normal;
     align-items: center;
     text-align: start;
  
