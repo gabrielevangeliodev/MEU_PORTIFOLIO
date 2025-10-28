@@ -121,7 +121,7 @@ body.modo-noturno .navegacao {
 
 .slider-img {
   position: absolute;
-  background-image: url("img/sol.png");
+  background-image: url("../img/sol.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
