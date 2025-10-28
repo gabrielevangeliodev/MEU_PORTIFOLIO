@@ -976,7 +976,7 @@ body.modo-noturno .paragrafo-footer {
 
   /*Inicio*/
   .section-main {
-    padding: 4rem 1rem;
+    padding: 6rem 1rem;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -991,9 +991,9 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .hero h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     justify-content: center;
-    text-align: center;
+    text-align: start;
   }
 
   h1 {
