@@ -744,7 +744,7 @@ body.modo-noturno .paragrafo-projetos {
 }
 
 .ver-projeto {
-  background-image: url("img/maximizar.png");
+  background-image: url("../img/maximizar.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
