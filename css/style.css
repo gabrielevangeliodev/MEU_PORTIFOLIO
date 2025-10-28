@@ -978,6 +978,7 @@ body.modo-noturno .paragrafo-footer {
   .section-main {
     padding: 6rem 1rem;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -985,23 +986,23 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .hero {
-    width: 100%;
-    max-width: 600px;
+      padding: 0 1.5rem;
   
   }
 
   .hero h2 {
-    font-size: 5vw;
-    word-break: normal;
-    margin: 2rem auto;
-    text-align: start;
-    align-items: center;
-    display: flex;
+    display: block;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.5;
  
   }
 
+ 
+
   h1 {
     font-size: 1.5rem;
+     text-align: center;
   }
 
   .container-redes {
@@ -1014,9 +1015,8 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .botoes {
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    
     gap: 10px;
   }
 
