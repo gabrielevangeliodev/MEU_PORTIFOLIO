@@ -51,29 +51,29 @@ function atualizarEstadoBotoes() {
   if (modoNoturno.checked) { /*Se o modo noturno está ativo */
 
     if (liked) {  /*E eu quero deixar o like*/
-      like.src = "img/like-ativo.png"; /*Seta o icone do like preenchido na cor azul*/
+      like.src = "../img/like-ativo.png"; /*Seta o icone do like preenchido na cor azul*/
     } else {  /*Senão*/
-      like.src = "img/like.png"; /*Seta o icone do like para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
+      like.src = "../img/like.png"; /*Seta o icone do like para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
     }
 
     if (likedNot) { /*E eu quero deixar o dislike*/
-      dislike.src = "img/dislike-ativo.png"; /*Seta o icone do dislike preenchido na cor azul*/
+      dislike.src = "../img/dislike-ativo.png"; /*Seta o icone do dislike preenchido na cor azul*/
     } else { /*Senão*/
-      dislike.src = "img/dislike.png"; /*Seta o icone do dislike para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
+      dislike.src = "../img/dislike.png"; /*Seta o icone do dislike para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
     }
   } else { /*Se não estiver no modo noturno*/
 
     if (liked) { /*E eu quero deixar o like*/
-      like.src = "img/like-ativo-light.png"; /*Seta o icone do like preenchido na cor branca*/
+      like.src = "../img/like-ativo-light.png"; /*Seta o icone do like preenchido na cor branca*/
     } else { /*Senão*/
-      like.src = "img/like.png"; /*Seta o icone do like para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
+      like.src = "../img/like.png"; /*Seta o icone do like para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
     }
 
     if (likedNot) { /*Caso eu queira deixar o dislike*/
 
-      dislike.src = "img/dislike-ativo-light.png"; /*Seta o icone do dislike preenchido na cor branca*/
+      dislike.src = "../img/dislike-ativo-light.png"; /*Seta o icone do dislike preenchido na cor branca*/
     } else { /*Senão*/
-      dislike.src = "img/dislike.png";  /*Seta o icone do dislike para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
+      dislike.src = "../img/dislike.png";  /*Seta o icone do dislike para condição normal. Isso evida que os dois botões possam ser selecionados ao mesmo tempo */
     
     }
   }
