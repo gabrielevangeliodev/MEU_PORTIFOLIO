@@ -115,7 +115,7 @@ body.modo-noturno .navegacao {
 
 .slider-img {
   position: absolute;
-  background-image: url("img/sol.png");
+  background-image: url("../img/sol.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -137,7 +137,7 @@ body.modo-noturno .navegacao {
 
 #ativo:checked ~ .switch .slider-img {
   transform: translateX(30px);
-  background-image: url("img/lua.png");
+  background-image: url("../img/lua.png");
 }
 
 .menu {
@@ -235,11 +235,11 @@ body.modo-noturno .d-block {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("img/prev.png");
+  background-image: url("../img/prev.png");
 }
 
 .carousel-control-next-icon {
-  background-image: url("img/next.png");
+  background-image: url("../img/next.png");
 }
 
 .paragrafo-projeto {
