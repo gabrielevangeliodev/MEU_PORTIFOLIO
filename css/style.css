@@ -249,7 +249,7 @@ span {
 }
 
 .cursor {
-  border-right: 2px solid var(--escuro);
+  border-right: 2px solid var(--claro);
   animation: piscar 0.8s steps(2) infinite;
   margin: 5px;
   
@@ -1088,9 +1088,24 @@ body.modo-noturno .paragrafo-footer {
     padding: 6rem 1rem;
   }
 
-  .hero h2 {
-    font-size: 5vw;
+  .hero{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+   
   }
+
+  .hero h2 {
+    display: flex;
+    word-break: normal;
+    flex-wrap: wrap;
+    text-overflow: hidden;
+    font-size: clamp(0.9rem, 5vw, 1.3rem);
+    text-align: start;
+   
+  }
+
+
 
   .card-imagem {
     width: 100%;

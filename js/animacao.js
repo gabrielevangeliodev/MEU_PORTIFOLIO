@@ -2,12 +2,15 @@ document.addEventListener("DOMContentLoaded", () => {
   // Adiciona essa animação apenas quando a página HTML for totalmente carregada
 
   const spans = document.querySelectorAll("h2 span"); //Selecionando todos os elementos span dentro do h1 e guarda em spans
+  const h2s = document.querySelectorAll("h2");
 
   const cursor = document.createElement("span"); //Criando um span para o cursor
 
   cursor.classList.add("cursor"); //Adiciona a classe CSS ao cursor. Essa classe define a aparência (a cor, o formato e a animação de piscar) do cursor.
 
-  document.querySelector("h2").appendChild(cursor); //Seleciona o primeiro h2 e adiciona o span do cursor como ultimo filho dele.
+ // coloca o cursor no último h2
+  const ultimoH2 = h2s[h2s.length - 1];
+  ultimoH2.appendChild(cursor);
 
   let delay = 100; //Atraso em milissegundos entre a aparição de cada letra
 
