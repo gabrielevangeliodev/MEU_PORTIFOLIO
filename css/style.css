@@ -995,6 +995,8 @@ body.modo-noturno .paragrafo-footer {
     word-break: normal;
     margin: 2rem auto;
     text-align: start;
+    align-items: center;
+    display: flex;
  
   }
 
