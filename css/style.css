@@ -143,7 +143,7 @@ body.modo-noturno .navegacao {
 
 #ativo:checked ~ .switch .slider-img {
   transform: translateX(30px);
-  background-image: url("img/lua.png");
+  background-image: url('img/lua.png');
 }
 
 .menu {
