@@ -249,12 +249,10 @@ span {
 }
 
 .cursor {
-  border-right: 2px solid var(--claro);
+  border-right: 2px solid var(--escuro);
   animation: piscar 0.8s steps(2) infinite;
   margin: 5px;
   
-
-
 }
 
 
