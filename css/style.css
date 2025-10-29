@@ -1085,7 +1085,7 @@ body.modo-noturno .paragrafo-footer {
 
   /*Inicio*/
   .section-main {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1126,6 +1126,7 @@ body.modo-noturno .paragrafo-footer {
     align-items: center;
     gap: 1rem;
     width: 100%;
+   
   }
 
  
