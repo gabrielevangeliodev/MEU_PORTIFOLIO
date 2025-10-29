@@ -290,7 +290,7 @@ a {
 #bt-fale-comigo {
   color: var(--claro);
   background-color: var(--primaria);
-  margin-right: 10px;
+  
 }
 
 #bt-fale-comigo:hover {
@@ -1132,17 +1132,27 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .botoes {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     width: 100%;
   }
 
-  .botoes a,
+  .botoes a{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  
+  }
+
+ 
   .botoes button {
     width: 90%;
     min-width: 200px;
     font-size: 1rem;
+    padding: 15px 20px;
+ 
   }
 
   .container-imagem {
