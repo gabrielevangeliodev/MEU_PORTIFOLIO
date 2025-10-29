@@ -218,7 +218,7 @@ body.modo-noturno .section-main {
 h1 {
   font-size: 2.5rem;
   color: var(--primaria);
-   text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.4);
   font-weight: bold;
   margin: 20px 0px;
 }
@@ -229,7 +229,6 @@ body.modo-noturno h1 {
 
 span {
   white-space: wrap;
-
 }
 .cor1 {
   color: #bd93f9;
@@ -255,14 +254,11 @@ span {
   border-right: 2px solid var(--claro);
   animation: piscar 0.8s steps(2) infinite;
   margin: 5px;
-  
 }
-
 
 body.modo-noturno .cursor {
   background-color: var(--claro);
 }
-
 
 @keyframes piscar {
   0% {
@@ -314,14 +310,16 @@ a {
 
 .container-imagem {
   position: relative;
-  display: flex;
+  display: inline-block;
   animation: levitar 3s ease-in-out infinite;
   padding: 4px;
 }
 
 .container-imagem img {
-  width: 350px;
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-image: url("../img/fundo1.png");
@@ -342,7 +340,10 @@ body.modo-noturno .container-imagem img {
 body.modo-noturno .container-imagem::before {
   content: "";
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding: 4px;
@@ -931,20 +932,17 @@ body.modo-noturno .paragrafo-footer {
 }
 
 .container-imagem {
-
 }
-  .container-tecnologias {
-  }
+.container-tecnologias {
+}
 
-  /*Projetos*/
-  .section-projetos {
-  }
+/*Projetos*/
+.section-projetos {
+}
 
-  /*Contatos*/
-  .section-contatos {
-
-  }
-
+/*Contatos*/
+.section-contatos {
+}
 
 @media (max-width: 768px) {
   /*Menu*/
@@ -989,8 +987,7 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .hero {
-      padding: 0 1rem;
-  
+    padding: 0 1rem;
   }
 
   .hero h2 {
@@ -998,10 +995,9 @@ body.modo-noturno .paragrafo-footer {
     text-align: left;
   }
 
- 
   h1 {
     font-size: 1.5rem;
-     text-align: center;
+    text-align: center;
   }
 
   .container-redes {
@@ -1091,14 +1087,13 @@ body.modo-noturno .paragrafo-footer {
     padding: 6rem 1rem;
   }
 
-
-  .hero{
+  .hero {
     max-width: 100%;
     margin: 0 auto;
     padding: 1rem;
   }
 
-  .hero h2{
+  .hero h2 {
     width: 100%;
     display: flex;
     word-break: normal;
@@ -1106,21 +1101,57 @@ body.modo-noturno .paragrafo-footer {
     text-overflow: hidden;
     font-size: 1rem;
     text-align: start;
-   
   }
 
- 
+  .container-imagem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    animation: levitar 3s ease-in-out infinite;
+    padding: 4px;
+  }
 
-  .container-imagem img{
+  .container-imagem img {
+    display: flex;
     width: 70%;
     height: auto;
-     max-width: 300px;
-     justify-content: center;
- 
-
+    max-width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: url("../img/fundo1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
   }
 
+  body.modo-noturno .container-imagem::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(
+      90deg,
+      var(--primaria),
+      var(--secundaria),
+      var(--laranja),
+      var(--primaria)
+    );
+    background-size: 300% 300%;
+    animation: borderMove 5s linear infinite;
+    z-index: 1;
 
+    /* Cria a máscara para mostrar só a borda */
+  }
 
   .card-imagem {
     width: 70%;
