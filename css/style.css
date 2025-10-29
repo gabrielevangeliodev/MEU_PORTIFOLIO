@@ -999,6 +999,7 @@ body.modo-noturno .paragrafo-footer {
     text-align: center;
   }
 
+  
   .container-redes {
     justify-content: center;
     align-items: center;
@@ -1098,9 +1099,34 @@ body.modo-noturno .paragrafo-footer {
     word-break: normal;
     flex-wrap: wrap;
     text-overflow: hidden;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: start;
   }
+
+    h1 {
+    font-size: 1.5rem;
+    text-align: start;
+    padding: 0;
+  
+  }
+
+  
+  .botoes {
+    display: flex;
+    gap: 10px;
+  }
+
+  .botoes a {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .botoes button {
+    width: 100%;
+    margin: 0;
+    padding: 15px 35px;
+  }
+
 
 
   .container-imagem {
