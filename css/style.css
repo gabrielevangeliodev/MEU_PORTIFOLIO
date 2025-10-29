@@ -231,23 +231,23 @@ span {
   white-space: wrap;
 }
 .cor1 {
-  color: var(--secundaria);
-  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.2);
+  color: #7c3aed;
+  text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .cor2 {
   color: #8be9fd;
-  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.4);
 }
 
 .cor3 {
   color: #f1fa8c;
-  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.4);
 }
 
 .cor4 {
   color: #50fa7b;
-  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.4);
 }
 
 .cursor {
