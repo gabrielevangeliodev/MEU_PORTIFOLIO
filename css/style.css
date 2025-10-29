@@ -220,6 +220,7 @@ h1 {
   color: var(--primaria);
   font-weight: bold;
   margin: 20px 0px;
+  text-transform: uppercase;
 }
 
 body.modo-noturno h1 {
