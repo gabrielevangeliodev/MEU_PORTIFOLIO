@@ -1084,7 +1084,7 @@ body.modo-noturno .paragrafo-footer {
 @media (max-width: 480px) {
   /*Inicio*/
   .section-main {
-    padding: 6rem 1rem;
+    padding: 8rem 1rem;
   }
 
   .hero {
@@ -1102,6 +1102,7 @@ body.modo-noturno .paragrafo-footer {
     font-size: 1rem;
     text-align: start;
   }
+
 
   .container-imagem {
     position: relative;
