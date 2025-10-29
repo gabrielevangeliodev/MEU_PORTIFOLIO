@@ -1090,7 +1090,7 @@ body.modo-noturno .paragrafo-footer {
     align-items: center;
     text-align: center;
     gap: 2rem;
-    padding: 7rem 1rem;
+    padding: 7rem 1rem 4rem;
   }
 
   .navegacao {
@@ -1128,14 +1128,13 @@ body.modo-noturno .paragrafo-footer {
     gap: 1rem;
     width: 100%;
   
+  
   }
 
  
-
   .botoes a, .botoes button {
     width: 90%;
     min-width: 200px;
-    margin: 0;
     font-size: 1rem;
   }
 
