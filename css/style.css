@@ -1080,9 +1080,16 @@ body.modo-noturno .paragrafo-footer {
 }
 
 /*Telas de celulares pequenos*/
+
 @media (max-width: 480px) {
+
   /*Inicio*/
   .section-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
     padding: 7rem 1rem;
   }
 
@@ -1093,7 +1100,8 @@ body.modo-noturno .paragrafo-footer {
   .hero {
     max-width: 100%;
     margin: 0 auto;
-    padding: 1rem;
+    text-align: center;
+    padding: 0;
   }
 
   .hero h2 {
@@ -1102,30 +1110,31 @@ body.modo-noturno .paragrafo-footer {
     word-break: normal;
     flex-wrap: wrap;
     text-overflow: hidden;
-    font-size: 0.9rem;
-    text-align: start;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center;
   }
 
   h1 {
     font-size: 1.5rem;
-    text-align: start;
-    padding: 0;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 
   .botoes {
-    display: flex;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
   }
 
-  .botoes a {
-    width: 100%;
-    max-width: 250px;
-  }
+ 
 
-  .botoes button {
-    width: 100%;
+  .botoes a, .botoes button {
+    width: 90%;
+    min-width: 200px;
     margin: 0;
-    padding: 12px 25px;
+  
   }
 
   .container-imagem {
