@@ -231,13 +231,13 @@ span {
   white-space: wrap;
 }
 .cor1 {
-  color: #bd93f9;
-  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.4);
+  color: var(--secundaria);
+  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 .cor2 {
   color: #8be9fd;
-  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 .cor3 {
@@ -247,7 +247,7 @@ span {
 
 .cor4 {
   color: #50fa7b;
-  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 .cursor {
@@ -1160,7 +1160,7 @@ body.modo-noturno .paragrafo-footer {
     display: flex;
     justify-content: center;
     animation: levitar 3s ease-in-out infinite;
-    padding: 4px;
+    padding: 2px;
   }
 
   .container-imagem img {
@@ -1188,8 +1188,8 @@ body.modo-noturno .paragrafo-footer {
     transform: translateX(-50%);
     right: 0;
     bottom: 0;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
     padding: 2px;
     background: linear-gradient(
       90deg,
