@@ -999,7 +999,6 @@ body.modo-noturno .paragrafo-footer {
     text-align: center;
   }
 
-  
   .container-redes {
     justify-content: center;
     align-items: center;
@@ -1087,13 +1086,9 @@ body.modo-noturno .paragrafo-footer {
     padding: 7rem 1rem;
   }
 
-  
-.navegacao {
- 
-  padding: 0.8rem;
-
-}
-
+  .navegacao {
+    padding: 0.8rem;
+  }
 
   .hero {
     max-width: 100%;
@@ -1111,14 +1106,12 @@ body.modo-noturno .paragrafo-footer {
     text-align: start;
   }
 
-    h1 {
+  h1 {
     font-size: 1.5rem;
     text-align: start;
     padding: 0;
-  
   }
 
-  
   .botoes {
     display: flex;
     gap: 10px;
@@ -1134,8 +1127,6 @@ body.modo-noturno .paragrafo-footer {
     margin: 0;
     padding: 12px 25px;
   }
-
-
 
   .container-imagem {
     position: relative;
@@ -1196,14 +1187,12 @@ body.modo-noturno .paragrafo-footer {
 
   /*Sobre mim*/
   .section-sobre {
-   padding: 7rem 1rem;
-   
+    padding: 7rem 1rem;
   }
 
   /*Habilidades*/
   .section-habilidade {
     padding: 7rem 1rem;
-   
   }
 
   .tecnologias {
@@ -1228,4 +1217,20 @@ body.modo-noturno .paragrafo-footer {
   /*Contatos*/
   .section-contatos {
   }
+
+  
+  .circulo-contato img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .circulo-contato {
+    gap: 10px;
+  }
+
+  .circulo-contato {
+    border-width: 2px;
+  }
+
+
 }
