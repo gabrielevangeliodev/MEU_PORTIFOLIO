@@ -322,7 +322,7 @@ a {
   max-width: 350px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-image: url("../img/fundo1.webp");
+  background-image: url("../img/fundo1.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1170,7 +1170,7 @@ body.modo-noturno .paragrafo-footer {
     max-width: 350px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-image: url("../img/fundo1.webp");
+    background-image: url("../img/fundo1.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
