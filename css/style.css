@@ -1082,7 +1082,6 @@ body.modo-noturno .paragrafo-footer {
 /*Telas de celulares pequenos*/
 
 @media (max-width: 480px) {
-
   /*Inicio*/
   .section-main {
     flex-direction: column-reverse;
@@ -1105,16 +1104,17 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .hero h2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: baseline;
-  text-align: left;
-  font-size: 1rem;
-  line-height: 1.4;
-  max-width: 90%;
-  margin: 0 auto;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.4;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
 
   h1 {
     font-size: 1.5rem;
@@ -1128,12 +1128,10 @@ body.modo-noturno .paragrafo-footer {
     align-items: center;
     gap: 1rem;
     width: 100%;
-  
-  
   }
 
- 
-  .botoes a, .botoes button {
+  .botoes a,
+  .botoes button {
     width: 90%;
     min-width: 200px;
     font-size: 1rem;
@@ -1229,7 +1227,6 @@ body.modo-noturno .paragrafo-footer {
   .section-contatos {
   }
 
-  
   .circulo-contato img {
     width: 40px;
     height: 40px;
@@ -1242,6 +1239,4 @@ body.modo-noturno .paragrafo-footer {
   .circulo-contato {
     border-width: 2px;
   }
-
-
 }
