@@ -1164,13 +1164,13 @@ body.modo-noturno .paragrafo-footer {
   /*Sobre mim*/
   .section-sobre {
    padding: 7rem 1rem;
-   justify-content: center;
+   
   }
 
   /*Habilidades*/
   .section-habilidade {
     padding: 7rem 1rem;
-    justify-content: center;
+   
   }
 
   .tecnologias {
