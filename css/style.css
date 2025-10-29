@@ -1105,15 +1105,16 @@ body.modo-noturno .paragrafo-footer {
   }
 
   .hero h2 {
-    width: 100%;
-    display: flex;
-    word-break: normal;
-    flex-wrap: wrap;
-    text-overflow: hidden;
-    font-size: 1rem;
-    line-height: 1.4;
-    text-align: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.4;
+  max-width: 90%;
+  margin: 0 auto;
+}
 
   h1 {
     font-size: 1.5rem;
