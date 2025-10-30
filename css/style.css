@@ -1235,9 +1235,20 @@ body.modo-noturno .paragrafo-footer {
      gap: 20px;
   }
 
+  .container-sobre{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+
   /*Habilidades*/
   .section-habilidade {
-    padding: 7rem 1rem;
+    padding: 5rem 1rem 4rem;
+    gap: 2rem;
   }
 
   .tecnologias {
@@ -1247,17 +1258,10 @@ body.modo-noturno .paragrafo-footer {
 
   /*Projetos*/
   .section-projetos {
-    padding: 7rem 1rem;
+    padding: 5rem 1rem 4rem;
+    gap: 2rem;
   }
 
-  .container-sobre{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    text-align: center;
-    gap: 1.5rem;
-  }
 
   .projetos-caixa {
     gap: 1rem;
