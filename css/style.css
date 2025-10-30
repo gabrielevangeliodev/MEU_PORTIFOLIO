@@ -960,6 +960,7 @@ body.modo-noturno .paragrafo-footer {
 
 /*Contatos*/
 .section-contatos {
+   padding: 4rem 1rem 4rem;
 }
 
 @media (max-width: 768px) {
@@ -1060,7 +1061,7 @@ body.modo-noturno .paragrafo-footer {
   /*Contatos*/
 
   .section-contatos {
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 4rem; 
   }
 
   .txt-footer {
