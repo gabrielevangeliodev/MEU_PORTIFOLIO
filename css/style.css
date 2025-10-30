@@ -290,7 +290,6 @@ a {
 #bt-fale-comigo {
   color: var(--claro);
   background-color: var(--primaria);
-  
 }
 
 #bt-fale-comigo:hover {
@@ -715,13 +714,11 @@ body.modo-noturno .projetos-card:hover {
   margin-bottom: 5px;
   color: var(--laranja);
   font-size: 1.5rem;
-
 }
 
 body.modo-noturno .info-projetos {
   color: var(--primaria);
 }
-
 
 .paragrafo-projetos {
   color: #333;
@@ -866,6 +863,21 @@ body.modo-noturno .paragrafo-footer {
   font-size: 1rem;
 }
 
+@media (max-width: 1370px) {
+
+  .section-main {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+
+}
+
+
+
 /*Telas de celulares pequenos*/
 @media (max-width: 1024px) {
   /*Inicio*/
@@ -876,15 +888,20 @@ body.modo-noturno .paragrafo-footer {
 
   .section-main {
     padding: 6rem 1rem;
-    gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
   }
 
   .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
-    padding: 10px;
+    max-width: 700px;
+    padding: 0;
+    text-align: center;
+   
   }
 
   .hero h2 {
@@ -984,13 +1001,13 @@ body.modo-noturno .paragrafo-footer {
 
   /*Inicio*/
   .section-main {
-    padding: 6rem 1rem;
+    padding: 7rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    gap: 30px;
+    gap: 2rem;
   }
 
   .hero {
@@ -1090,7 +1107,7 @@ body.modo-noturno .paragrafo-footer {
 /*Telas de celulares pequenos*/
 
 @media (max-width: 480px) {
-  /*Inicio*/
+  
   .section-main {
     flex-direction: column-reverse;
     justify-content: center;
@@ -1121,7 +1138,6 @@ body.modo-noturno .paragrafo-footer {
     line-height: 1.4;
     max-width: 90%;
     margin: 0 auto;
-    
   }
 
   h1 {
@@ -1139,20 +1155,17 @@ body.modo-noturno .paragrafo-footer {
     width: 100%;
   }
 
-  .botoes a{
+  .botoes a {
     display: flex;
     justify-content: center;
     width: 90%;
-  
   }
 
- 
   .botoes button {
     width: 90%;
     min-width: 200px;
     font-size: 1rem;
     padding: 15px 20px;
- 
   }
 
   .container-imagem {
@@ -1191,6 +1204,7 @@ body.modo-noturno .paragrafo-footer {
     border-top-left-radius: 18px;
     border-bottom-right-radius: 18px;
     padding: 2px;
+
     background: linear-gradient(
       90deg,
       var(--primaria),
@@ -1201,20 +1215,24 @@ body.modo-noturno .paragrafo-footer {
     background-size: 300% 300%;
     animation: borderMove 5s linear infinite;
     z-index: 1;
-
-    /* Cria a máscara para mostrar só a borda */
   }
 
   .card-imagem {
-    width: 70%;
-    height: auto;
-    max-width: 300px;
+    width: 80%;
+    max-width: 250px;
     margin: 0 auto;
   }
 
+  .imagem-senai img{
+    border-radius: 15px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
   /*Sobre mim*/
   .section-sobre {
-    padding: 7rem 1rem;
+    padding: 5rem 1rem 4rem;
+     gap: 20px;
   }
 
   /*Habilidades*/
@@ -1232,6 +1250,15 @@ body.modo-noturno .paragrafo-footer {
     padding: 7rem 1rem;
   }
 
+  .container-sobre{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
   .projetos-caixa {
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1243,6 +1270,7 @@ body.modo-noturno .paragrafo-footer {
 
   /*Contatos*/
   .section-contatos {
+
   }
 
   .circulo-contato img {
