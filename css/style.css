@@ -1270,18 +1270,51 @@ body.modo-noturno .paragrafo-footer {
 
   /*Contatos*/
   .section-contatos {
+    padding: 4rem 1rem 4rem;
+    gap: 1.5rem;
+    text-align: center;
   }
+
+  .txt-footer{
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .titulo-footer{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .paragrafo-footer{
+    font-size: 0.95rem;
+    line-height: 1.4;
+    padding: 0;
+  }
+
 
   .circulo-contato img {
     width: 40px;
     height: 40px;
+    padding: 8px;
   }
 
   .circulo-contato {
     gap: 10px;
+    border-width: 3px;
+  
   }
 
-  .circulo-contato {
-    border-width: 2px;
+  .copyright {
+    flex-direction: column;
+    padding: 10px 0;
   }
+
+  .paragrafo-copyright {
+    font-size: 0.75rem;
+    line-height: 1.3;
+    padding: 0 1rem;
+  }
+ 
 }
