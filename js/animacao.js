@@ -70,6 +70,11 @@ modoNoturno.addEventListener("change", () => {
 
 const botaoHamburger = document.getElementById("check");
 const menu = document.querySelector(".menu");
+const labelHamburger = document.querySelector("label[for='check']");
+
+labelHamburger.addEventListener("click", (e) => {
+  e.stopPropagation();
+});
 
 botaoHamburger.addEventListener("change", () => {
   if (botaoHamburger.checked) {
@@ -80,7 +85,7 @@ botaoHamburger.addEventListener("change", () => {
 });
 
 document.addEventListener("click",(e) => {
-  
+
     if (!menu.contains(e.target)) { 
       botaoHamburger.checked = false;
       menu.classList.remove("mostrar");
