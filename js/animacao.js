@@ -51,6 +51,7 @@ git.src = "img/github-light.png";
 linked.src = "img/linkedin-light.png";
 
 modoNoturno.addEventListener("change", () => {
+
   if (modoNoturno.checked) {
     document.body.classList.add("modo-noturno");
   } else {
@@ -65,13 +66,15 @@ modoNoturno.addEventListener("change", () => {
     insta.src = "img/instagram-light.png";
     git.src = "img/github-light.png";
     linked.src = "img/linkedin-light.png";
+    
   }
 });
 
 const botaoHamburger = document.getElementById("check");
 const menu = document.querySelector(".menu");
 
-botaoHamburger.addEventListener("change", () => {
+botaoHamburger.addEventListener("change", (e) => {
+  e.preventDefault();
   if (botaoHamburger.checked) {
     menu.classList.add("mostrar");
   } else {
