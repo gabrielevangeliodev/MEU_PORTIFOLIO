@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const modoNoturno = document.getElementById("ativo"); 
+const modoNoturno = document.getElementById("ativo");
 const insta = document.getElementById("instagram");
 const git = document.getElementById("gitHub");
 const linked = document.getElementById("linkedin");
@@ -53,7 +53,6 @@ linked.src = "img/linkedin-light.png";
 modoNoturno.addEventListener("change", () => {
   if (modoNoturno.checked) {
     document.body.classList.add("modo-noturno");
-    
   } else {
     document.body.classList.remove("modo-noturno");
   }
@@ -62,7 +61,6 @@ modoNoturno.addEventListener("change", () => {
     insta.src = "img/instagram.png";
     git.src = "img/github.png";
     linked.src = "img/linkedin.png";
-
   } else {
     insta.src = "img/instagram-light.png";
     git.src = "img/github-light.png";
@@ -70,18 +68,29 @@ modoNoturno.addEventListener("change", () => {
   }
 });
 
+const botaoHamburger = document.getElementById("check");
+const menu = document.querySelector(".menu");
 
+botaoHamburger.addEventListener("change", () => {
+  if (botaoHamburger.checked) {
+    menu.classList.add("mostrar");
+  } else {
+    menu.classList.remove("mostrar");
+  }
+});
 
- const botaoHamburger = document.getElementById('check');
- const menu = document.querySelector('.menu');
+document.addEventListener("scroll", function () {
+  const redeSocias = document.querySelector(".container-redes");
+  const sectionContatos = document.querySelector("#contatos");
 
-    botaoHamburger.addEventListener('change', () => {
+  const limiteInferior = sectionContatos.offsetTop;
+  const scrollVertical = window.scrollY + window.innerHeight / 2;
 
-       if (botaoHamburger.checked) {
-        menu.classList.add('mostrar');
-
-       }else{
-         menu.classList.remove('mostrar');
-       }
-    });
-
+  if (scrollVertical >= limiteInferior) {
+    redeSocias.style.opacity = "0";
+    redeSocias.style.pointerEvents = "none";
+  } else {
+    redeSocias.style.opacity = "1";
+    redeSocias.style.pointerEvents = "auto";
+  }
+});
