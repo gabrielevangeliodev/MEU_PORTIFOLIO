@@ -79,13 +79,13 @@ botaoHamburger.addEventListener("change", () => {
   }
 });
 
-document.addEventListener("click"),(e) => {
+document.addEventListener("click",(e) => {
     if (!menu.contains(e.target) && e.target !== botaoHamburger && !botaoHamburger.contains(e.target)) { 
 
       botaoHamburger.checked = false;
       menu.classList.remove("mostrar");
     }
-  };
+  });
 
 document.addEventListener("scroll", function () {
   const redeSocias = document.querySelector(".container-redes");
