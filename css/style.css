@@ -1139,6 +1139,16 @@ body.modo-noturno .paragrafo-footer {
     margin: 0 auto;
   }
 
+  .container-redes {
+    left: 0.5rem;
+    bottom: 1rem;
+    position: fixed;
+    z-index: 1000;
+    flex-direction: column;
+    align-self: start;
+    gap: 0.5rem;
+  }
+
   h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
