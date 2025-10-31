@@ -454,6 +454,15 @@ body.modo-noturno .section-sobre {
   padding: 20px;
 }
 
+.card-titulo h2 {
+  color: var(--claro);
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 #background-0 {
   background-color: var(--laranja);
   padding: 10px 30px;
@@ -466,12 +475,7 @@ body.modo-noturno #background-0 {
   background-color: var(--primaria);
 }
 
-.card-titulo h2 {
-  color: var(--claro);
-  font-size: 1.4rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
+
 
 /* Cards de conteúdo */
 .sobre {
@@ -1261,16 +1265,8 @@ body.modo-noturno .paragrafo-footer {
     gap: 1.5rem;
   }
 
-   .section-projetos h2 {
-    font-size: 1.4rem;
-   
-    text-align: center;
-    
-    letter-spacing: 1px;
-  }
-
   .projetos-caixa {
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
@@ -1303,7 +1299,6 @@ body.modo-noturno .paragrafo-footer {
     padding: 0;
   }
 
-
   .circulo-contato img {
     width: 40px;
     height: 40px;
@@ -1313,7 +1308,6 @@ body.modo-noturno .paragrafo-footer {
   .circulo-contato {
     gap: 10px;
     border-width: 3px;
-  
   }
 
   .copyright {
