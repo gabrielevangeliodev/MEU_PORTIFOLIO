@@ -80,6 +80,7 @@ botaoHamburger.addEventListener("change", () => {
 });
 
 document.addEventListener("click",(e) => {
+  
     if (!menu.contains(e.target)) { 
       botaoHamburger.checked = false;
       menu.classList.remove("mostrar");
