@@ -51,7 +51,6 @@ git.src = "img/github-light.png";
 linked.src = "img/linkedin-light.png";
 
 modoNoturno.addEventListener("change", () => {
-
   if (modoNoturno.checked) {
     document.body.classList.add("modo-noturno");
   } else {
@@ -66,21 +65,27 @@ modoNoturno.addEventListener("change", () => {
     insta.src = "img/instagram-light.png";
     git.src = "img/github-light.png";
     linked.src = "img/linkedin-light.png";
-    
   }
 });
 
 const botaoHamburger = document.getElementById("check");
 const menu = document.querySelector(".menu");
 
-botaoHamburger.addEventListener("change", (e) => {
-  e.preventDefault();
+botaoHamburger.addEventListener("change", () => {
   if (botaoHamburger.checked) {
     menu.classList.add("mostrar");
   } else {
     menu.classList.remove("mostrar");
   }
 });
+
+document.addEventListener("click"),(e) => {
+    if (!menu.contains(e.target) && e.target !== botaoHamburger && !botaoHamburger.contains(e.target)) { 
+
+      botaoHamburger.checked = false;
+      menu.classList.remove("mostrar");
+    }
+  };
 
 document.addEventListener("scroll", function () {
   const redeSocias = document.querySelector(".container-redes");
