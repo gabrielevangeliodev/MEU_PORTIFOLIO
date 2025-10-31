@@ -467,8 +467,9 @@ body.modo-noturno #background-0 {
 }
 
 .card-titulo h2 {
-  color: white;
-  font-size: 2rem;
+  color: var(--claro);
+  font-size: 1.4rem;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -1257,7 +1258,15 @@ body.modo-noturno .paragrafo-footer {
   /*Projetos*/
   .section-projetos {
     padding: 5rem 1rem 4rem;
-    gap: 2rem;
+    gap: 1.5rem;
+  }
+
+   .section-projetos h2 {
+    font-size: 1.4rem;
+   
+    text-align: center;
+    
+    letter-spacing: 1px;
   }
 
   .projetos-caixa {
