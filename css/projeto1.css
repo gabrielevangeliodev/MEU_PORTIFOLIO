@@ -215,8 +215,9 @@ body.modo-noturno .card-carrossel {
 }
 
 .d-block {
-  border-radius: 20px;
+  border-radius: 30px;
   max-height: 600px;
+ 
 }
 
 body.modo-noturno .d-block {
