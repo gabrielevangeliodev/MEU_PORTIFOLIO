@@ -1434,7 +1434,7 @@ body.modo-noturno .paragrafo-footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 1;
+    gap: 0.5rem;
   }
 
   .botoes a {
@@ -1676,7 +1676,7 @@ body.modo-noturno .paragrafo-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     width: 100%;
   }
 
