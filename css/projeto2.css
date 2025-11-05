@@ -42,3 +42,11 @@ body.modo-noturno .d-block {
 
 }
 
+@media(max-width:480px){
+
+  .d-block {
+  border-radius: 35px;
+  max-height: 600px;
+ 
+}
+}
