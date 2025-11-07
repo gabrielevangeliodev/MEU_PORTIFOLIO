@@ -479,11 +479,10 @@ body.modo-noturno .card-video video {
     gap: 8px;
   }
 
-  .menu{
+  .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
   }
 
   .projeto {
@@ -506,31 +505,26 @@ body.modo-noturno .card-video video {
 
   .engajar {
     width: 100%;
-    flex-direction: column;
     gap: 6px;
-    align-items: center;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
 
-  .engajar a {
-    gap: 5px;
-    padding: 4px 8px;
-    font-size: 0.75rem;
-    border-radius: 40px;
-  }
-
-   .link-git,
+  .link-git,
   .container-botao img {
     width: 25px;
     height: 25px;
   }
 
+  .engajar a,
   .container-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 6px;
     padding: 4px 8px;
     border-radius: 40px;
-    
+    font-size: 0.75rem;
   }
 
   .titulo {
