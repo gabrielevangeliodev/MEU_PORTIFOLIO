@@ -474,8 +474,16 @@ body.modo-noturno .card-video video {
   .navegacao {
     padding: 0.8rem;
     flex-direction: column;
+    justify-content: center;
     height: auto;
     gap: 8px;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
   }
 
   .projeto {
@@ -507,15 +515,22 @@ body.modo-noturno .card-video video {
 
   .engajar a {
     gap: 5px;
-    padding: 5px 5px;
-    font-size: 0.8rem;
+    padding: 4px 8px;
+    font-size: 0.75rem;
     border-radius: 40px;
   }
 
+   .link-git,
+  .container-botao img {
+    width: 25px;
+    height: 25px;
+  }
+
   .container-botao {
-    gap: 10px;
-    padding: 5px 10px;
+    gap: 6px;
+    padding: 4px 8px;
     border-radius: 40px;
+    
   }
 
   .titulo {
