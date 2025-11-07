@@ -752,7 +752,6 @@ body.modo-noturno .paragrafo-projetos {
   height: 200px;
   width: 100%;
   border-radius: 10px;
-
   object-fit: cover;
 }
 
@@ -1656,7 +1655,7 @@ body.modo-noturno .paragrafo-footer {
 
   .container-redes {
     left: 0.5rem;
-    top: 30%;
+    top: 20%;
     position: fixed;
     z-index: 1;
     flex-direction: column;
