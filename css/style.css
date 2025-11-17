@@ -191,6 +191,9 @@ body.modo-noturno .links {
   width: 100%;
 }
 
+body.modo-noturno .links::after {
+  background-color: var(--primaria);
+}
 .section-main {
   display: flex;
   background-color: #e2e6f5;
