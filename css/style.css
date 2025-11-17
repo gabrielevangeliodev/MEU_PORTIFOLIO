@@ -12,10 +12,10 @@ html {
 
 :root {
   --primaria: #4f46e5;
-  --secundaria: #7c3aed;
+  --secundaria: rgb(124, 58, 237);
   --escuro: #0a0f1c;
   --claro: #e2e8f0;
-  --laranja: #ff9f18;
+  --laranja: rgb(255, 159, 24);
   --vidro: rgba(255, 255, 255, 0.1);
 }
 
@@ -715,8 +715,8 @@ body.modo-noturno .projetos-card {
 }
 
 body.modo-noturno .projetos-card:hover {
-  box-shadow: 0px 0px 20px rgb(79, 70, 229, 0.3);
-  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0px 0px 20px rgb(124, 58, 237);
+
 }
 
 .projetos-card:hover .maximizar {
